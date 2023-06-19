@@ -1,0 +1,61 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+h1{
+    color:#154360;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #797D7F;
+}
+.container{
+    content: '';
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    border: 1px solid white;
+    width:50%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding-top: 40px;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    overflow-y: scroll;
+}
+
+.container input{
+    width:250px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.container button{
+    width:50px;
+    height: 40px;
+    border:1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+#toDoContainer{
+    color:#154360;
+}
+.paragraph-styling{
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid white;
+    margin-top: 50px;
+    padding-inline-start: 10px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-notebook-with-list-desk_23-2148938724.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
